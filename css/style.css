@@ -49,6 +49,8 @@ ol {
 	justify-content: space-around;
 }
 
+
+
 /* ========== TOP ========== */
 header {
 	background-image: url("../images/IMG_3148.JPG");
@@ -106,6 +108,14 @@ nav img, #fixed img {
 
 .git {
 	border-radius: 20px;
+}
+
+.hoverLine {
+	text-decoration: none;
+}
+
+.hoverLine:hover {
+	text-decoration: underline;
 }
 
 
@@ -173,6 +183,22 @@ section {
 	margin-bottom: 80px;
 }
 
+.myPic {
+	margin-right: 60px;
+	width: 120px;
+	height: 120px;
+	border-radius: 60px;
+}
+
+.wrap {
+	margin-top: 20px;
+	display: flex;
+}
+
+.opaque {
+	opacity: 1;
+}
+
 
 
 /* ========== BOTTOM ========== */
@@ -194,12 +220,12 @@ footer span {
 
 
 
-/* ========== MEDIA ========== */
+/* ========== MEDIA Qs ========== */
 @media (max-width: 600px) {
-	#fixed {
+/*	#fixed {
 		display: none;
 	}
 	#fixed-space {
 		display: block;
-	}
+	}*/
 }
