@@ -33,11 +33,21 @@ h4 {
 	font-size: 18px;
 }
 
-p {
+p, li {
 	font-size: 18px;
 }
 
+li {
+	margin-top: 10px;
+}
 
+ol {
+	margin-left: 30px;
+	height: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
 
 /* ========== TOP ========== */
 header {
