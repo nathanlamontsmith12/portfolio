@@ -16,7 +16,7 @@ a:hover {
 }
 /*	background-color: rgba(51, 107, 135, 0.2);*/
 body {
-	background-color: whitesmoke;
+	background-color: white;
 	min-width: 700px;
 	color: rgba(42, 49, 50);
 }
@@ -54,7 +54,7 @@ ol {
 /* ========== TOP ========== */
 header {
 	background-image: url("../images/IMG_3148.JPG");
-	background-color: whitesmoke;
+	background-color: white;
 	background-size: cover;
 	background-position: center;
 	padding-left: calc(20px + 5%);
@@ -175,7 +175,7 @@ main h4 {
 
 /* rgba(143, 187, 188, 0.3) */
 main div {
-	background-color: whitesmoke;
+	background-color: white;
 	width: 90%;
 	padding: 5px;
 }
