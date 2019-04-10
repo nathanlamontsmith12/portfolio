@@ -122,9 +122,9 @@ nav img, #fixed img {
 
 /* ========== FIXED NAVBAR ========== */
 #fixed {
-	height: 100px;
+	height: 60px;
 	width: 100%;
-	background-color: rgba(143, 187, 188, 0.8);
+	background-color: rgb(143, 187, 188);
 	position: sticky;
 	position: -webkit-sticky;
 	top: 0;
@@ -213,13 +213,13 @@ section {
 	justify-content: center;
 }
 
-.fakeLink p {
+.fakeLink p, .fakeLink a {
 	opacity: 0.7;	
 	color: rgba(42, 49, 50);
 	font-size: 20px;
 }
 
-.fakeLink p:hover {
+.fakeLink p:hover, .fakeLink a:hover {
 	cursor: pointer;
 	opacity: 1;
 }
